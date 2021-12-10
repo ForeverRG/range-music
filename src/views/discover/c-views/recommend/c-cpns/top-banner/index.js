@@ -6,6 +6,14 @@ import { Carousel } from "antd";
 import { BannerWrapper, BannerLeft } from "./style";
 
 export default memo(function RangeTopBanner() {
+  //   useEffect(() => {
+  //     request({
+  //       url: "/banner",
+  //     }).then((res) => {
+  //       console.log(res);
+  //     });
+  //   });
+
   return (
     <BannerWrapper>
       <div className="banner wrap-v2">
